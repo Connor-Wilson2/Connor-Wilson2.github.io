@@ -1,0 +1,292 @@
+/*
+	Comment
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  /* Comment */
+  color:
+    /* Comment */
+    Red;
+}
+
+body {
+  background-color: #C8C4C4;
+  margin: 0;
+  background-size: cover;
+  background-position: right;
+  color: #000000;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  background-color: #A50808;
+  padding: 1em;
+  background-position: right;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
+}
+
+header a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #90C7E3;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h2 {
+  padding: 5px;
+}
+
+h3 {
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+}
+
+main {
+  padding: 1em;
+  display: block;
+}
+
+nav {
+  list-style-type: none;
+  background: #FFFFFF;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+nav a:link {
+  color: #000000;
+}
+
+nav a:visited {
+  color: #587584;
+}
+
+nav a:hover {
+  color: #A52A2A
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  overflow: hidden;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+nav li a {
+  padding: 1em;
+}
+
+h2 {
+  color: #000000;
+  font-family: Georgia, serif;
+}
+
+dt {
+  color: #002171;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.70em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  background-color: #FFFFFF;
+}
+
+.TestClass {
+  color: Black;
+  background-color: White;
+  text-align: left;
+}
+
+#wrapper {
+  background-color: #FFFFFF;
+  width: 80%;
+}
+
+#homehero {
+  height: 400px;
+  background-image: url(EmprialEagle.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Army1tophero {
+  height: 800px;
+  background-image: url(TauArmy.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Army2tophero {
+  height: 800px;
+  background-image: url(SpaceMarineArmy.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Army3tophero {
+  height: 800px;
+  background-image: url(ChaosArmy.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Army4tophero {
+  height: 800px;
+  background-image: url(NecronsArmy.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Army5tophero {
+  height: 800px;
+  background-image: url(ImperailGuardArmy.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Army6tophero {
+  height: 800px;
+  background-image: url(DwarfArmy.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+section {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+moblie {
+  display: inline;
+}
+
+desktop {
+  display: none;
+}
+
+table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #A50808;
+  text-align: center;
+}
+
+th {
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #A50808;
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  padding: 5px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #DFEDF8;
+}
+
+@media screen and (min-width: 480px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 2em;
+  }
+
+  nav li {
+    border: none;
+    width: 12em;
+  }
+
+  section {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  flow {
+    flex-direction: row;
+  }
+
+  moblie {
+    display: none;
+  }
+
+  desktop {
+    display: inline;
+  }
+
+
+  #Army1tophero {
+    background-size: 100% 100%;
+  }
+
+  #Army2tophero {
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+  nav ul {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #wrapper {
+    margin: auto;
+    width: 80%;
+  }
+}
